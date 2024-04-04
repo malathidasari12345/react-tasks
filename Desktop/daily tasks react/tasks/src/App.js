@@ -6,15 +6,25 @@ import List from "./march26th/list";
 import Form from "./march26th/forms";
 import Cimg from "./march26th/classcomponents/image";
 import Lists from "./march26th/classcomponents/list";
+import AddFruit from './2nd april/add fruit';
+import ShowTable from './march 28/table';
+import DisplayImage from './march 28/image';
 function App() {
   return (
   <div>
-     <Hello/>
+    {/* march 26 */}
+     {/* <Hello/>
     <Table/>
     <List/>
     <Form/>
     <Cimg/>
-    <Lists/>
+    <Lists/> */}
+
+    {/* march 28 */}
+    {/* <ShowTable/> */}
+    <DisplayImage/>
+    {/* april2nd */}
+    {/* <AddFruit/> */}
   </div>
   );
 }
