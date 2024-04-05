@@ -10,6 +10,8 @@ import AddFruit from './2nd april/add fruit';
 import ShowTable from './march 28/table';
 import DisplayImage from './march 28/image';
 import FilterTask from './march 29/filtertask';
+import ConditionalRenderinggg from './march 29/task2';
+
 function App() {
   return (
   <div>
@@ -27,6 +29,8 @@ function App() {
 
     {/* march29 */}
      <FilterTask/>
+     <ConditionalRenderinggg/>
+    
     {/* april2nd */}
     {/* <AddFruit/> */}
   </div>

@@ -115,7 +115,7 @@ const FilterArry2 = (sal1,sal2)=>{
           FilterArry2( 10000 , 20000).map((val)=>{
             return(
                 <ul>
-                    <li>{val.name}</li>
+                    <li>{val.name}-{val.salary}    {val.Designation}</li>
                 </ul>
             )
           })
@@ -125,7 +125,7 @@ const FilterArry2 = (sal1,sal2)=>{
            FilterArry2( 20000,30000).map((val)=>{
             return(
                 <ul>
-                    <li>{val.name}</li>
+                    <li>{val.name}-{val.salary}   {val.Designation}</li>
                 </ul>
             )
           })  
