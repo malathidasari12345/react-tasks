@@ -9,6 +9,7 @@ import Lists from "./march26th/classcomponents/list";
 import AddFruit from './2nd april/add fruit';
 import ShowTable from './march 28/table';
 import DisplayImage from './march 28/image';
+import FilterTask from './march 29/filtertask';
 function App() {
   return (
   <div>
@@ -22,7 +23,10 @@ function App() {
 
     {/* march 28 */}
     {/* <ShowTable/> */}
-    <DisplayImage/>
+    {/* <DisplayImage/> */}
+
+    {/* march29 */}
+     <FilterTask/>
     {/* april2nd */}
     {/* <AddFruit/> */}
   </div>

@@ -77,7 +77,7 @@ function DisplayImage(){
                             //     <td>{value.type}</td>
                             //     <td><img src={value.image} alt={value.type} height={100} width={100}></img></td>
                             // </tr>
-                            <ShowTable  data = {value} />
+                            <ShowTable   data = {value} />
                         )
                      })
                     }
